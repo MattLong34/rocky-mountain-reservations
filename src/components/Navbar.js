@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import logo from '../images/logo.svg'
 import logo from '../images/RMR.svg'
 import { FaAlignRight } from "react-icons/fa"
 import {Link} from 'react-router-dom'
@@ -17,7 +16,7 @@ export default class Navbar extends Component {
                 <div className="nav-center">
                     <div className="nav-header">
                         <Link to="/">
-                            <img src={logo} alt="Beach Resort" />
+                            <img src={logo} alt="Rocky Mountain Reservations" />
                         </Link>
                         <button 
                             type="button" 
@@ -32,7 +31,7 @@ export default class Navbar extends Component {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/trails">View Trails</Link>
+                            <Link to="/trails">Trails</Link>
                         </li>
                     </ul>
                 </div>
