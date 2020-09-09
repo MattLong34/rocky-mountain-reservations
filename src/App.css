@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #af9a7d;
+  /* --primaryColor: #af9a7d; */
+  --primaryColor: #4D9354;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -157,16 +158,15 @@ h6 {
 /* end of navbar */
 /* Hero */
 .defaultHero,
-.roomsHero {
+.trailssHero {
   min-height: calc(100vh - 66px);
-  /* background: url("./images/defaultBcg.jpeg") center/cover no-repeat; */
-  background: url("./images/details-1.jpeg") center/cover no-repeat;
+  background: url("./images/RMNP-hero.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.roomsHero {
-  background-image: url("./images/room-2.jpeg");
+.trailsHero {
+  background-image: url("./images/bear-lake.jpeg");
   min-height: 60vh;
 }
 /* End of Hero */

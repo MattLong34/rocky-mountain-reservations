@@ -1,9 +1,6 @@
 import React from 'react'
+import Hero from '../components/Hero'
 
 export default function Trails() {
-    return (
-        <div>
-            hello from the trails page
-        </div>
-    )
+    return <Hero hero="trailsHero" />
 }
