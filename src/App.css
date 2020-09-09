@@ -99,6 +99,7 @@ h6 {
   width: 100%;
   padding: 0.75rem 2rem;
   background: var(--offWhite);
+  /* background: transparent; */
   z-index: 1;
 }
 .nav-header {
@@ -120,6 +121,7 @@ h6 {
   overflow: hidden;
   transition: var(--mainTransition);
   list-style-type: none;
+  /* margin-left: 500px !important; */
 }
 .nav-links a {
   display: block;
@@ -137,7 +139,7 @@ h6 {
 }
 
 .show-nav {
-  height: 100px;
+  height: 150px;
 }
 @media screen and (min-width: 768px) {
   .nav-btn {
@@ -232,15 +234,15 @@ h6 {
 }
 /* end of Title */
 
-/* services */
-.services {
+/* resources */
+.resources {
   padding: 5rem 0;
 }
-.services {
+.resources {
   background: var(--darkGrey);
   text-align: center;
 }
-.services-center {
+.resources-center {
   width: 90vw;
   margin: 0 auto;
   display: grid;
@@ -248,32 +250,33 @@ h6 {
   grid-row-gap: 2rem;
   grid-column-gap: 50px;
 }
-.service span {
+.resources span {
   display: inline-block;
   color: var(--primaryColor);
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
-.services h6 {
+.resources h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
 }
-.services p {
+.resources p {
   width: 80%;
   margin: 0 auto;
 }
 @media screen and (min-width: 992px) {
-  .services-center {
+  .resources-center {
     width: 95vw;
     max-width: 1170px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .services p {
+  .resources p {
     width: 100%;
   }
 }
-/*end of services */
+/*end of resources */
 /* featured rooms */
 
 .featured-rooms {
