@@ -8,22 +8,22 @@ export default class Resources extends Component {
             {
                 icon: <FaClock/>,
                 title: "park hours",
-                info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                info: "Rocky Mountain National Park is open 24 hours a day, 365 days a year, weather permitting."
             },
             {
                 icon: <FaMapMarkedAlt/>,
                 title: "maps",
-                info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                info: "Visit the National Park Service online or the visitor's center at Rocky Mountain National Park for detail maps."
             },
             {
                 icon: <FaCloudSunRain/>,
                 title: "weather",
-                info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                info: "The high country of Rocky Mountain National Park is noted for extreme weather patterns which change rapidly."
             },
             {
                 icon: <FaHiking/>,
                 title: "leave no trace",
-                info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                info: " Please leave no trace of your visit so that the next person can experience the same beauty that you did."
             }
         ]
     }

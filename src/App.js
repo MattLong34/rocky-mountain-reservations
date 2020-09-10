@@ -17,7 +17,7 @@ function App() {
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/trails/" component={Trails} />
-      <Route exact path="/trails/:name" component={SingleTrail} />
+      <Route exact path="/trails/:title" component={SingleTrail} />
       <Route component={Error} />
     </Switch>
   </div>
