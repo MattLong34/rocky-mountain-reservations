@@ -114,7 +114,7 @@ export default [
         "imgSqSmall": "https://cdn2.apstatic.com/photos/hike/7017842_sqsmall_1554829871.jpg",
         "imgSmall": "https://cdn2.apstatic.com/photos/hike/7017842_small_1554829871.jpg",
         "imgSmallMed": "https://cdn2.apstatic.com/photos/hike/7017842_smallMed_1554829871.jpg",
-        "imgMedium": "https://cdn2.apstatic.com/photos/hike/7049484_medium_1555541495.jpg",
+        "imgMedium": "https://images.unsplash.com/photo-1536794368739-61b7f54a873f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
         "length": 5.7,
         "ascent": 1293,
         "descent": -1309,

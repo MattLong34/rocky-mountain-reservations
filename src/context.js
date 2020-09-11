@@ -23,6 +23,12 @@ class TrailProvider extends Component {
         })
     }
 
+    getTrail = (title) => {
+        let tempTrails = [...this.state.trails]
+        let trail = tempTrails.find((trail) => trail.title === title)
+        return trail
+    }
+
     // formatData(items){
     //     let tempItems = items.map(item => {
     //         // let id = item.trails.id
@@ -42,7 +48,11 @@ class TrailProvider extends Component {
     // }
 
     render() {
-        return <TrailContext.Provider value={{ ...this.state }}>
+        return <TrailContext.Provider value={{ 
+            ...this.state,
+            getTrail: this.getTrail 
+            }}
+            >
             {this.props.children}
         </TrailContext.Provider>
     }
