@@ -304,12 +304,12 @@ h6 {
   }
 }
 /* end pf featured trails */
-/* room */
-.room {
+/* trail */
+.trail {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
 }
-.room:hover {
+.trail:hover {
   box-shadow: var(--darkShadow);
 }
 
@@ -370,13 +370,13 @@ h6 {
   font-weight: 700;
   letter-spacing: var(--mainSpacing);
 }
-/* end of room  */
-/* single room*/
+/* end of trail  */
+/* single trail*/
 
-.single-room {
+.single-trail {
   padding: 5rem 0 0 0;
 }
-.single-room-images {
+.single-trail-images {
   width: 80vw;
   margin: 0 auto;
   display: grid;
@@ -384,11 +384,11 @@ h6 {
   grid-row-gap: 2rem;
   grid-column-gap: 50px;
 }
-.single-room-images img {
+.single-trail-images img {
   width: 100%;
   display: block;
 }
-.single-room-info {
+.single-trail-info {
   width: 80vw;
   display: grid;
   grid-template-columns: 1fr;
@@ -414,11 +414,11 @@ h6 {
 .info h6 {
   font-weight: 300;
 }
-.room-extras {
+.trail-extras {
   width: 80vw;
   margin: 0 auto 3rem auto;
 }
-.room-extras h6 {
+.trail-extras h6 {
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
 }
@@ -430,13 +430,13 @@ h6 {
   grid-row-gap: 1rem;
 }
 @media screen and (min-width: 992px) {
-  .single-room-images,
-  .single-room-info,
-  .room-extras {
+  .single-trail-images,
+  .single-trail-info,
+  .trail-extras {
     width: 95vw;
     max-width: 1170px;
   }
-  .single-room-info {
+  .single-trail-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 2rem;
@@ -445,12 +445,12 @@ h6 {
     padding-left: 3rem;
   }
 }
-/* end of single room*/
-/* roomlist */
-.roomslist {
+/* end of single trail*/
+/* traillist */
+.trailslist {
   padding: 5rem 0;
 }
-.roomslist-center {
+.trailslist-center {
   width: 80vw;
   margin: 0 auto;
   display: grid;
@@ -460,18 +460,18 @@ h6 {
 }
 
 @media screen and (min-width: 776px) {
-  .roomslist-center {
+  .trailslist-center {
     width: 90vw;
   }
 }
 @media screen and (min-width: 992px) {
-  .roomslist-center {
+  .trailslist-center {
     width: 95vw;
     max-width: 1170px;
   }
 }
-/* end of roomlist */
-/*  rooms fitler*/
+/* end of trailsist */
+/*  trails fitler*/
 .filter-container {
   padding: 5rem 0;
 }
@@ -522,4 +522,4 @@ h6 {
     max-width: 1170px;
   }
 }
-/* end of rooms fitler*/
+/* end of trails fitler*/
